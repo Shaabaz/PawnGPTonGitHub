@@ -1,0 +1,20 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    font-weight: bold;
+    background-color: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    border-style: dotted;
+    border-width: 2.5px;
+}
+
+input {
+    text-align: left;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
