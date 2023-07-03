@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>PawnGPT</title>
+    <link rel=”stylesheet” href=”styles.css”>
+    <script type=”text/javascript” src=”index.js”></script>
+</head>
+
+<body>
+    <img src="gs://pawn-gpt.appspot.com/PawnGPT App Logo.png.png" id="pawn_gpt_logo">
+    <br>
+    <input type="email" id="email_input" hint="Email Address">
+    <br>
+    <input type="password" id="password_input" hint="Password">
+    <br>
+    <div>
+        <button id="sign_up" onclick="createUserWithEmailAndPassword(auth, email, password)">Sign Up</button>
+        <button id="sign_in" onclick="signInWithEmailAndPassword(auth, email, password)">Sign In</button>
+    </div>
+    
+
+</body>
+</html>
